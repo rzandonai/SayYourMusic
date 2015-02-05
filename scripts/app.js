@@ -53,7 +53,7 @@ if (navigator.getUserMedia) {
       	 mediaRecorder.ondataavailable = function(e) {
            console.log("data available");
 
-           var clipName = "last";
+            var clipName = prompt('Nome para salvar');
 
       	   var clipContainer = document.createElement('article');
       	   var clipLabel = document.createElement('p');
